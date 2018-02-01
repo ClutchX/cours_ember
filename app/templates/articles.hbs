@@ -1,3 +1,6 @@
 {{outlet}}
-
-Hello World
+<ul>
+    {{#each model.articles as |article|}}
+        <li>{{article.Name}}</li>
+    {{/each}}
+</ul>
